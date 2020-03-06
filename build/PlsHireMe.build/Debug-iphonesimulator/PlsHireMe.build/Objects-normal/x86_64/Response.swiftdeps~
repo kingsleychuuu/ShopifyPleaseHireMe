@@ -1,0 +1,966 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Response"
+- "Product"
+- "Image"
+- "Option"
+- "Name"
+- "PublishedScope"
+- "Variant"
+- "FulfillmentService"
+- "InventoryPolicy"
+- "WeightUnit"
+- "JSONNull"
+- "JSONCodingKey"
+- "JSONAny"
+- "=="
+provides-nominal:
+- "9PlsHireMe8ResponseV"
+- "9PlsHireMe7ProductV"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe5ImageV"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe4NameO"
+- "9PlsHireMe14PublishedScopeO"
+- "9PlsHireMe7VariantV"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe18FulfillmentServiceO"
+- "9PlsHireMe15InventoryPolicyO"
+- "9PlsHireMe10WeightUnitO"
+- "9PlsHireMe8JSONNullC"
+- "9PlsHireMe13JSONCodingKeyC"
+- "9PlsHireMe7JSONAnyC"
+provides-member:
+- ["9PlsHireMe8ResponseV", ""]
+- ["9PlsHireMe7ProductV", ""]
+- ["9PlsHireMe7ProductV10CodingKeysO", ""]
+- ["9PlsHireMe5ImageV", ""]
+- ["9PlsHireMe5ImageV10CodingKeysO", ""]
+- ["9PlsHireMe6OptionV", ""]
+- ["9PlsHireMe6OptionV10CodingKeysO", ""]
+- ["9PlsHireMe4NameO", ""]
+- ["9PlsHireMe14PublishedScopeO", ""]
+- ["9PlsHireMe7VariantV", ""]
+- ["9PlsHireMe7VariantV10CodingKeysO", ""]
+- ["9PlsHireMe18FulfillmentServiceO", ""]
+- ["9PlsHireMe15InventoryPolicyO", ""]
+- ["9PlsHireMe10WeightUnitO", ""]
+- ["9PlsHireMe8JSONNullC", ""]
+- ["9PlsHireMe13JSONCodingKeyC", ""]
+- ["9PlsHireMe7JSONAnyC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "DecodingError"
+- "Double"
+- "Encoder"
+- "EncodingError"
+- "FulfillmentService"
+- "Hashable"
+- "Image"
+- "Int"
+- !private "Int64"
+- "InventoryPolicy"
+- "JSONAny"
+- "JSONCodingKey"
+- "JSONNull"
+- "KeyedDecodingContainer"
+- "KeyedEncodingContainer"
+- "Name"
+- "Option"
+- "Product"
+- "PublishedScope"
+- "Response"
+- "SingleValueDecodingContainer"
+- "SingleValueEncodingContainer"
+- "String"
+- "UnkeyedDecodingContainer"
+- "UnkeyedEncodingContainer"
+- "Variant"
+- "WeightUnit"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "key"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "=="]
+- ["9PlsHireMe6OptionV10CodingKeysO", "=="]
+- ["9PlsHireMe7ProductV10CodingKeysO", "=="]
+- ["9PlsHireMe7VariantV10CodingKeysO", "=="]
+- ["9PlsHireMe5ImageV10CodingKeysO", "RawValue"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "RawValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "RawValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "RawValue"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "_Default_RawValue"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "_Default_RawValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "_Default_RawValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "_Default_RawValue"]
+- !private ["9PlsHireMe5ImageV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["9PlsHireMe6OptionV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["9PlsHireMe7ProductV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["9PlsHireMe7VariantV10CodingKeysO", "_findStringSwitchCase"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "_rawHashValue"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "_rawHashValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "_rawHashValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "_rawHashValue"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "adminGraphqlAPIID"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "adminGraphqlAPIID"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "adminGraphqlAPIID"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "alt"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "barcode"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "bodyHTML"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "compareAtPrice"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "createdAt"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "createdAt"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "createdAt"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "debugDescription"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "debugDescription"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "debugDescription"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "debugDescription"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "deinit"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "deinit"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "deinit"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "deinit"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "description"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "description"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "description"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "description"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "fulfillmentService"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "grams"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "handle"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "hash"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "hash"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "hash"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "hash"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "hashValue"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "hashValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "hashValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "hashValue"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "height"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "id"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "id"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "id"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "id"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "image"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "imageID"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "images"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "init"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "init"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "init"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "init"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "intValue"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "intValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "intValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "intValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "inventoryItemID"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "inventoryManagement"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "inventoryPolicy"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "inventoryQuantity"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "name"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "oldInventoryQuantity"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "option1"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "option2"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "option3"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "options"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "position"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "position"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "position"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "price"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "productID"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "productID"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "productID"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "productType"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "publishedAt"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "publishedScope"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "rawValue"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "rawValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "rawValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "rawValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "requiresShipping"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "sku"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "src"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "stringValue"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "stringValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "stringValue"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "stringValue"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "tags"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "taxable"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "templateSuffix"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "title"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "title"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "updatedAt"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "updatedAt"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "updatedAt"]
+- ["9PlsHireMe6OptionV10CodingKeysO", "values"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "variantIDS"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "variants"]
+- ["9PlsHireMe7ProductV10CodingKeysO", "vendor"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "weight"]
+- ["9PlsHireMe7VariantV10CodingKeysO", "weightUnit"]
+- ["9PlsHireMe5ImageV10CodingKeysO", "width"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s13EncodingErrorO7ContextV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["Se", "=="]
+- !private ["Se", "Bool"]
+- !private ["Se", "DecodingError"]
+- !private ["Se", "Double"]
+- !private ["Se", "EncodingError"]
+- !private ["Se", "Int64"]
+- !private ["Se", "JSONAny"]
+- !private ["Se", "JSONCodingKey"]
+- !private ["Se", "JSONNull"]
+- ["Se", "RawValue"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "adminGraphqlAPIID"]
+- !private ["Se", "alt"]
+- !private ["Se", "append"]
+- !private ["Se", "barcode"]
+- !private ["Se", "bodyHTML"]
+- !private ["Se", "compareAtPrice"]
+- !private ["Se", "createdAt"]
+- !private ["Se", "decode"]
+- !private ["Se", "decodeArray"]
+- !private ["Se", "decodeDictionary"]
+- !private ["Se", "decodingError"]
+- ["Se", "encode"]
+- !private ["Se", "encodingError"]
+- !private ["Se", "fulfillmentService"]
+- !private ["Se", "grams"]
+- !private ["Se", "handle"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "height"]
+- !private ["Se", "id"]
+- !private ["Se", "image"]
+- !private ["Se", "imageID"]
+- !private ["Se", "images"]
+- ["Se", "init"]
+- !private ["Se", "inventoryItemID"]
+- !private ["Se", "inventoryManagement"]
+- !private ["Se", "inventoryPolicy"]
+- !private ["Se", "inventoryQuantity"]
+- !private ["Se", "name"]
+- !private ["Se", "oldInventoryQuantity"]
+- !private ["Se", "option1"]
+- !private ["Se", "option2"]
+- !private ["Se", "option3"]
+- !private ["Se", "options"]
+- !private ["Se", "position"]
+- !private ["Se", "price"]
+- !private ["Se", "productID"]
+- !private ["Se", "productType"]
+- !private ["Se", "products"]
+- !private ["Se", "publishedAt"]
+- !private ["Se", "publishedScope"]
+- ["Se", "rawValue"]
+- !private ["Se", "requiresShipping"]
+- !private ["Se", "sku"]
+- !private ["Se", "src"]
+- !private ["Se", "subscript"]
+- !private ["Se", "tags"]
+- !private ["Se", "taxable"]
+- !private ["Se", "templateSuffix"]
+- !private ["Se", "title"]
+- !private ["Se", "updatedAt"]
+- !private ["Se", "value"]
+- !private ["Se", "values"]
+- !private ["Se", "variantIDS"]
+- !private ["Se", "variants"]
+- !private ["Se", "vendor"]
+- !private ["Se", "weight"]
+- !private ["Se", "weightUnit"]
+- !private ["Se", "width"]
+- !private ["s7DecoderP", "codingPath"]
+- !private ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- !private ["s7DecoderP", "unkeyedContainer"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "=="]
+- !private ["SE", "Bool"]
+- !private ["SE", "DecodingError"]
+- !private ["SE", "Double"]
+- !private ["SE", "EncodingError"]
+- !private ["SE", "Int64"]
+- !private ["SE", "JSONAny"]
+- !private ["SE", "JSONCodingKey"]
+- !private ["SE", "JSONNull"]
+- ["SE", "RawValue"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "adminGraphqlAPIID"]
+- !private ["SE", "alt"]
+- !private ["SE", "append"]
+- !private ["SE", "barcode"]
+- !private ["SE", "bodyHTML"]
+- !private ["SE", "compareAtPrice"]
+- !private ["SE", "createdAt"]
+- !private ["SE", "decode"]
+- !private ["SE", "decodeArray"]
+- !private ["SE", "decodeDictionary"]
+- !private ["SE", "decodingError"]
+- ["SE", "encode"]
+- !private ["SE", "encodingError"]
+- !private ["SE", "fulfillmentService"]
+- !private ["SE", "grams"]
+- !private ["SE", "handle"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "height"]
+- !private ["SE", "id"]
+- !private ["SE", "image"]
+- !private ["SE", "imageID"]
+- !private ["SE", "images"]
+- ["SE", "init"]
+- !private ["SE", "inventoryItemID"]
+- !private ["SE", "inventoryManagement"]
+- !private ["SE", "inventoryPolicy"]
+- !private ["SE", "inventoryQuantity"]
+- !private ["SE", "name"]
+- !private ["SE", "oldInventoryQuantity"]
+- !private ["SE", "option1"]
+- !private ["SE", "option2"]
+- !private ["SE", "option3"]
+- !private ["SE", "options"]
+- !private ["SE", "position"]
+- !private ["SE", "price"]
+- !private ["SE", "productID"]
+- !private ["SE", "productType"]
+- !private ["SE", "products"]
+- !private ["SE", "publishedAt"]
+- !private ["SE", "publishedScope"]
+- ["SE", "rawValue"]
+- !private ["SE", "requiresShipping"]
+- !private ["SE", "sku"]
+- !private ["SE", "src"]
+- !private ["SE", "subscript"]
+- !private ["SE", "tags"]
+- !private ["SE", "taxable"]
+- !private ["SE", "templateSuffix"]
+- !private ["SE", "title"]
+- !private ["SE", "updatedAt"]
+- !private ["SE", "value"]
+- !private ["SE", "values"]
+- !private ["SE", "variantIDS"]
+- !private ["SE", "variants"]
+- !private ["SE", "vendor"]
+- !private ["SE", "weight"]
+- !private ["SE", "weightUnit"]
+- !private ["SE", "width"]
+- !private ["s7EncoderP", "container"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["s7EncoderP", "unkeyedContainer"]
+- !private ["s13EncodingErrorO", "Context"]
+- !private ["s13EncodingErrorO", "invalidValue"]
+- ["SQ", "=="]
+- !private ["SQ", "DecodingError"]
+- !private ["SQ", "JSONNull"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "invalidValue"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["9PlsHireMe18FulfillmentServiceO", "=="]
+- ["9PlsHireMe18FulfillmentServiceO", "RawValue"]
+- ["9PlsHireMe18FulfillmentServiceO", "_Default_RawValue"]
+- !private ["9PlsHireMe18FulfillmentServiceO", "_findStringSwitchCase"]
+- ["9PlsHireMe18FulfillmentServiceO", "_rawHashValue"]
+- ["9PlsHireMe18FulfillmentServiceO", "deinit"]
+- ["9PlsHireMe18FulfillmentServiceO", "encode"]
+- ["9PlsHireMe18FulfillmentServiceO", "hash"]
+- ["9PlsHireMe18FulfillmentServiceO", "hashValue"]
+- ["9PlsHireMe18FulfillmentServiceO", "init"]
+- ["9PlsHireMe18FulfillmentServiceO", "manual"]
+- ["9PlsHireMe18FulfillmentServiceO", "rawValue"]
+- ["SH", "=="]
+- !private ["SH", "DecodingError"]
+- !private ["SH", "JSONNull"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["s6HasherV", "combine"]
+- ["9PlsHireMe5ImageV", "CodingKey"]
+- ["9PlsHireMe5ImageV", "CodingKeys"]
+- ["9PlsHireMe5ImageV", "Int"]
+- ["9PlsHireMe5ImageV", "JSONAny"]
+- ["9PlsHireMe5ImageV", "JSONNull"]
+- ["9PlsHireMe5ImageV", "String"]
+- !private ["9PlsHireMe5ImageV", "_findStringSwitchCase"]
+- ["9PlsHireMe5ImageV", "adminGraphqlAPIID"]
+- ["9PlsHireMe5ImageV", "alt"]
+- ["9PlsHireMe5ImageV", "createdAt"]
+- ["9PlsHireMe5ImageV", "deinit"]
+- ["9PlsHireMe5ImageV", "encode"]
+- ["9PlsHireMe5ImageV", "height"]
+- ["9PlsHireMe5ImageV", "id"]
+- ["9PlsHireMe5ImageV", "init"]
+- ["9PlsHireMe5ImageV", "position"]
+- ["9PlsHireMe5ImageV", "productID"]
+- ["9PlsHireMe5ImageV", "src"]
+- ["9PlsHireMe5ImageV", "updatedAt"]
+- ["9PlsHireMe5ImageV", "variantIDS"]
+- ["9PlsHireMe5ImageV", "width"]
+- ["9PlsHireMe15InventoryPolicyO", "=="]
+- ["9PlsHireMe15InventoryPolicyO", "RawValue"]
+- ["9PlsHireMe15InventoryPolicyO", "_Default_RawValue"]
+- !private ["9PlsHireMe15InventoryPolicyO", "_findStringSwitchCase"]
+- ["9PlsHireMe15InventoryPolicyO", "_rawHashValue"]
+- ["9PlsHireMe15InventoryPolicyO", "deinit"]
+- ["9PlsHireMe15InventoryPolicyO", "deny"]
+- ["9PlsHireMe15InventoryPolicyO", "encode"]
+- ["9PlsHireMe15InventoryPolicyO", "hash"]
+- ["9PlsHireMe15InventoryPolicyO", "hashValue"]
+- ["9PlsHireMe15InventoryPolicyO", "init"]
+- ["9PlsHireMe15InventoryPolicyO", "rawValue"]
+- !private ["9PlsHireMe7JSONAnyC", "Bool"]
+- ["9PlsHireMe7JSONAnyC", "CodingKey"]
+- ["9PlsHireMe7JSONAnyC", "Decoder"]
+- ["9PlsHireMe7JSONAnyC", "DecodingError"]
+- !private ["9PlsHireMe7JSONAnyC", "Double"]
+- ["9PlsHireMe7JSONAnyC", "Encoder"]
+- ["9PlsHireMe7JSONAnyC", "EncodingError"]
+- !private ["9PlsHireMe7JSONAnyC", "Int64"]
+- !private ["9PlsHireMe7JSONAnyC", "JSONAny"]
+- ["9PlsHireMe7JSONAnyC", "JSONCodingKey"]
+- !private ["9PlsHireMe7JSONAnyC", "JSONNull"]
+- ["9PlsHireMe7JSONAnyC", "KeyedDecodingContainer"]
+- ["9PlsHireMe7JSONAnyC", "KeyedEncodingContainer"]
+- ["9PlsHireMe7JSONAnyC", "SingleValueDecodingContainer"]
+- ["9PlsHireMe7JSONAnyC", "SingleValueEncodingContainer"]
+- ["9PlsHireMe7JSONAnyC", "String"]
+- ["9PlsHireMe7JSONAnyC", "UnkeyedDecodingContainer"]
+- ["9PlsHireMe7JSONAnyC", "UnkeyedEncodingContainer"]
+- ["9PlsHireMe7JSONAnyC", "decode"]
+- ["9PlsHireMe7JSONAnyC", "decodeArray"]
+- ["9PlsHireMe7JSONAnyC", "decodeDictionary"]
+- ["9PlsHireMe7JSONAnyC", "decodingError"]
+- ["9PlsHireMe7JSONAnyC", "deinit"]
+- ["9PlsHireMe7JSONAnyC", "encode"]
+- ["9PlsHireMe7JSONAnyC", "encodingError"]
+- ["9PlsHireMe7JSONAnyC", "init"]
+- ["9PlsHireMe7JSONAnyC", "value"]
+- ["9PlsHireMe13JSONCodingKeyC", "Int"]
+- ["9PlsHireMe13JSONCodingKeyC", "String"]
+- ["9PlsHireMe13JSONCodingKeyC", "debugDescription"]
+- ["9PlsHireMe13JSONCodingKeyC", "deinit"]
+- ["9PlsHireMe13JSONCodingKeyC", "description"]
+- ["9PlsHireMe13JSONCodingKeyC", "init"]
+- ["9PlsHireMe13JSONCodingKeyC", "intValue"]
+- ["9PlsHireMe13JSONCodingKeyC", "key"]
+- ["9PlsHireMe13JSONCodingKeyC", "stringValue"]
+- ["9PlsHireMe8JSONNullC", "=="]
+- ["9PlsHireMe8JSONNullC", "Bool"]
+- ["9PlsHireMe8JSONNullC", "Decoder"]
+- !private ["9PlsHireMe8JSONNullC", "DecodingError"]
+- ["9PlsHireMe8JSONNullC", "Encoder"]
+- ["9PlsHireMe8JSONNullC", "Int"]
+- ["9PlsHireMe8JSONNullC", "JSONNull"]
+- ["9PlsHireMe8JSONNullC", "_rawHashValue"]
+- ["9PlsHireMe8JSONNullC", "deinit"]
+- ["9PlsHireMe8JSONNullC", "encode"]
+- ["9PlsHireMe8JSONNullC", "hash"]
+- ["9PlsHireMe8JSONNullC", "hashValue"]
+- ["9PlsHireMe8JSONNullC", "init"]
+- !private ["s22KeyedDecodingContainerV", "allKeys"]
+- !private ["s22KeyedDecodingContainerV", "codingPath"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s22KeyedDecodingContainerV", "decodeNil"]
+- !private ["s22KeyedDecodingContainerV", "nestedContainer"]
+- !private ["s22KeyedDecodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- !private ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["s22KeyedEncodingContainerV", "codingPath"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeNil"]
+- !private ["s22KeyedEncodingContainerV", "nestedContainer"]
+- !private ["s22KeyedEncodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "invalidValue"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["9PlsHireMe4NameO", "=="]
+- ["9PlsHireMe4NameO", "RawValue"]
+- ["9PlsHireMe4NameO", "_Default_RawValue"]
+- !private ["9PlsHireMe4NameO", "_findStringSwitchCase"]
+- ["9PlsHireMe4NameO", "_rawHashValue"]
+- ["9PlsHireMe4NameO", "deinit"]
+- ["9PlsHireMe4NameO", "encode"]
+- ["9PlsHireMe4NameO", "hash"]
+- ["9PlsHireMe4NameO", "hashValue"]
+- ["9PlsHireMe4NameO", "init"]
+- ["9PlsHireMe4NameO", "rawValue"]
+- ["9PlsHireMe4NameO", "title"]
+- ["9PlsHireMe6OptionV", "CodingKey"]
+- ["9PlsHireMe6OptionV", "CodingKeys"]
+- ["9PlsHireMe6OptionV", "Int"]
+- ["9PlsHireMe6OptionV", "Name"]
+- ["9PlsHireMe6OptionV", "String"]
+- !private ["9PlsHireMe6OptionV", "_findStringSwitchCase"]
+- ["9PlsHireMe6OptionV", "deinit"]
+- ["9PlsHireMe6OptionV", "encode"]
+- ["9PlsHireMe6OptionV", "id"]
+- ["9PlsHireMe6OptionV", "init"]
+- ["9PlsHireMe6OptionV", "name"]
+- ["9PlsHireMe6OptionV", "position"]
+- ["9PlsHireMe6OptionV", "productID"]
+- ["9PlsHireMe6OptionV", "values"]
+- ["9PlsHireMe7ProductV", "CodingKey"]
+- ["9PlsHireMe7ProductV", "CodingKeys"]
+- ["9PlsHireMe7ProductV", "Image"]
+- ["9PlsHireMe7ProductV", "Int"]
+- ["9PlsHireMe7ProductV", "JSONNull"]
+- ["9PlsHireMe7ProductV", "Option"]
+- ["9PlsHireMe7ProductV", "PublishedScope"]
+- ["9PlsHireMe7ProductV", "String"]
+- ["9PlsHireMe7ProductV", "Variant"]
+- !private ["9PlsHireMe7ProductV", "_findStringSwitchCase"]
+- ["9PlsHireMe7ProductV", "adminGraphqlAPIID"]
+- ["9PlsHireMe7ProductV", "bodyHTML"]
+- ["9PlsHireMe7ProductV", "createdAt"]
+- ["9PlsHireMe7ProductV", "deinit"]
+- ["9PlsHireMe7ProductV", "encode"]
+- ["9PlsHireMe7ProductV", "handle"]
+- ["9PlsHireMe7ProductV", "id"]
+- ["9PlsHireMe7ProductV", "image"]
+- ["9PlsHireMe7ProductV", "images"]
+- ["9PlsHireMe7ProductV", "init"]
+- ["9PlsHireMe7ProductV", "options"]
+- ["9PlsHireMe7ProductV", "productType"]
+- ["9PlsHireMe7ProductV", "publishedAt"]
+- ["9PlsHireMe7ProductV", "publishedScope"]
+- ["9PlsHireMe7ProductV", "tags"]
+- ["9PlsHireMe7ProductV", "templateSuffix"]
+- ["9PlsHireMe7ProductV", "title"]
+- ["9PlsHireMe7ProductV", "updatedAt"]
+- ["9PlsHireMe7ProductV", "variants"]
+- ["9PlsHireMe7ProductV", "vendor"]
+- ["9PlsHireMe14PublishedScopeO", "=="]
+- ["9PlsHireMe14PublishedScopeO", "RawValue"]
+- ["9PlsHireMe14PublishedScopeO", "_Default_RawValue"]
+- !private ["9PlsHireMe14PublishedScopeO", "_findStringSwitchCase"]
+- ["9PlsHireMe14PublishedScopeO", "_rawHashValue"]
+- ["9PlsHireMe14PublishedScopeO", "deinit"]
+- ["9PlsHireMe14PublishedScopeO", "encode"]
+- ["9PlsHireMe14PublishedScopeO", "hash"]
+- ["9PlsHireMe14PublishedScopeO", "hashValue"]
+- ["9PlsHireMe14PublishedScopeO", "init"]
+- ["9PlsHireMe14PublishedScopeO", "rawValue"]
+- ["9PlsHireMe14PublishedScopeO", "web"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "encode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["9PlsHireMe8ResponseV", "Product"]
+- ["9PlsHireMe8ResponseV", "deinit"]
+- ["9PlsHireMe8ResponseV", "encode"]
+- ["9PlsHireMe8ResponseV", "init"]
+- ["9PlsHireMe8ResponseV", "products"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s28SingleValueDecodingContainerP", "codingPath"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "codingPath"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["s28SingleValueEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "codingPath"]
+- !private ["s24UnkeyedDecodingContainerP", "decode"]
+- !private ["s24UnkeyedDecodingContainerP", "decodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "isAtEnd"]
+- !private ["s24UnkeyedDecodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "nestedUnkeyedContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "codingPath"]
+- !private ["s24UnkeyedEncodingContainerP", "encode"]
+- !private ["s24UnkeyedEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedEncodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "nestedUnkeyedContainer"]
+- ["9PlsHireMe7VariantV", "Bool"]
+- ["9PlsHireMe7VariantV", "CodingKey"]
+- ["9PlsHireMe7VariantV", "CodingKeys"]
+- ["9PlsHireMe7VariantV", "Double"]
+- ["9PlsHireMe7VariantV", "FulfillmentService"]
+- ["9PlsHireMe7VariantV", "Int"]
+- ["9PlsHireMe7VariantV", "InventoryPolicy"]
+- ["9PlsHireMe7VariantV", "JSONNull"]
+- ["9PlsHireMe7VariantV", "String"]
+- ["9PlsHireMe7VariantV", "WeightUnit"]
+- !private ["9PlsHireMe7VariantV", "_findStringSwitchCase"]
+- ["9PlsHireMe7VariantV", "adminGraphqlAPIID"]
+- ["9PlsHireMe7VariantV", "barcode"]
+- ["9PlsHireMe7VariantV", "compareAtPrice"]
+- ["9PlsHireMe7VariantV", "createdAt"]
+- ["9PlsHireMe7VariantV", "deinit"]
+- ["9PlsHireMe7VariantV", "encode"]
+- ["9PlsHireMe7VariantV", "fulfillmentService"]
+- ["9PlsHireMe7VariantV", "grams"]
+- ["9PlsHireMe7VariantV", "id"]
+- ["9PlsHireMe7VariantV", "imageID"]
+- ["9PlsHireMe7VariantV", "init"]
+- ["9PlsHireMe7VariantV", "inventoryItemID"]
+- ["9PlsHireMe7VariantV", "inventoryManagement"]
+- ["9PlsHireMe7VariantV", "inventoryPolicy"]
+- ["9PlsHireMe7VariantV", "inventoryQuantity"]
+- ["9PlsHireMe7VariantV", "oldInventoryQuantity"]
+- ["9PlsHireMe7VariantV", "option1"]
+- ["9PlsHireMe7VariantV", "option2"]
+- ["9PlsHireMe7VariantV", "option3"]
+- ["9PlsHireMe7VariantV", "position"]
+- ["9PlsHireMe7VariantV", "price"]
+- ["9PlsHireMe7VariantV", "productID"]
+- ["9PlsHireMe7VariantV", "requiresShipping"]
+- ["9PlsHireMe7VariantV", "sku"]
+- ["9PlsHireMe7VariantV", "taxable"]
+- ["9PlsHireMe7VariantV", "title"]
+- ["9PlsHireMe7VariantV", "updatedAt"]
+- ["9PlsHireMe7VariantV", "weight"]
+- ["9PlsHireMe7VariantV", "weightUnit"]
+- ["9PlsHireMe10WeightUnitO", "=="]
+- ["9PlsHireMe10WeightUnitO", "RawValue"]
+- ["9PlsHireMe10WeightUnitO", "_Default_RawValue"]
+- !private ["9PlsHireMe10WeightUnitO", "_findStringSwitchCase"]
+- ["9PlsHireMe10WeightUnitO", "_rawHashValue"]
+- ["9PlsHireMe10WeightUnitO", "deinit"]
+- ["9PlsHireMe10WeightUnitO", "encode"]
+- ["9PlsHireMe10WeightUnitO", "hash"]
+- ["9PlsHireMe10WeightUnitO", "hashValue"]
+- ["9PlsHireMe10WeightUnitO", "init"]
+- ["9PlsHireMe10WeightUnitO", "kg"]
+- ["9PlsHireMe10WeightUnitO", "rawValue"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- !private "9PlsHireMe5ImageV10CodingKeysO"
+- !private "9PlsHireMe6OptionV10CodingKeysO"
+- !private "9PlsHireMe7ProductV10CodingKeysO"
+- !private "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe6OptionV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- "9PlsHireMe7ProductV10CodingKeysO"
+- "9PlsHireMe7VariantV10CodingKeysO"
+- "9PlsHireMe5ImageV10CodingKeysO"
+- !private "Sl"
+- !private "s13DecodingErrorO7ContextV"
+- !private "s13EncodingErrorO7ContextV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- !private "s13EncodingErrorO"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "9PlsHireMe18FulfillmentServiceO"
+- "SH"
+- !private "s6HasherV"
+- "9PlsHireMe5ImageV"
+- "9PlsHireMe15InventoryPolicyO"
+- "9PlsHireMe7JSONAnyC"
+- "9PlsHireMe13JSONCodingKeyC"
+- "9PlsHireMe8JSONNullC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "9PlsHireMe4NameO"
+- "9PlsHireMe6OptionV"
+- "9PlsHireMe7ProductV"
+- "9PlsHireMe14PublishedScopeO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "9PlsHireMe8ResponseV"
+- !private "ST"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "s24UnkeyedDecodingContainerP"
+- !private "s24UnkeyedEncodingContainerP"
+- "9PlsHireMe7VariantV"
+- "9PlsHireMe10WeightUnitO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cd7e3600e56e730fe3d2c8f78602f9bf"

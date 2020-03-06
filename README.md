@@ -1,4 +1,4 @@
-# PlsHireMe
+# ShopifyPlsHireMe
 
 All three (personal project, shopify matching game, shopify wordsearch game) mobile developer challenges included in a single app to show off my skills as a developer, with additional introduction about me!
 

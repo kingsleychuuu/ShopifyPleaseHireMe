@@ -4,7 +4,7 @@ All three (personal project, shopify matching game, shopify wordsearch game) mob
 
 Full App Demo Here:
 
-![Screen Recording](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/recording.gif)
+![Screen Recording](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/recording.gif)
 
 Overall App:
 - Entire app done programmatically with swift, no storyboards or xibs used
@@ -18,7 +18,7 @@ Overall App:
 
 Music Player Personal Project:
 
-![Player](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/PlayerOne.png)
+![Player](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/PlayerOne.png)
 
 Music Player Personal Project
 - Music player uses AVFoundation
@@ -28,9 +28,9 @@ Music Player Personal Project
 
 Matching Game App:
 
-![Matching Game](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/MatchingOne.png)
-![Matching Game](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/MatchingTwo.png)
-![Matching Game](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/MatchingThree.png)
+![Matching Game](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/MatchingOne.png)
+![Matching Game](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/MatchingTwo.png)
+![Matching Game](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/MatchingThree.png)
 
 Matching Game Project
 - Codable struct to receive and decode JSON from API request
@@ -44,9 +44,9 @@ Matching Game Project
 
 Wordsearch App:
 
-![Wordsearch Game](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/WordsearchOne.png)
-![Wordsearch Game](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/WordsearchTwo.png)
-![Wordsearch Game](https://github.com/kingsleychuuu/PlsHireMe/blob/master/Screenshots/WordsearchThree.png)
+![Wordsearch Game](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/WordsearchOne.png)
+![Wordsearch Game](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/WordsearchTwo.png)
+![Wordsearch Game](https://github.com/kingsleychuuu/ShopifyPleaseHireMe/blob/master/Screenshots/WordsearchThree.png)
 
 Wordsearch Game Project
 - Unidirectional word placements
